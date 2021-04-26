@@ -4,6 +4,7 @@
 FROM openjdk:8-jdk-alpine
 
 RUN mkdir /opt/appdynamics-phpagent
+
 ADD . /opt/appdynamics-phpagent
 
 #oc start-build appdynamics-phpagent --from-dir . --follow
